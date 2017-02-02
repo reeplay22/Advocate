@@ -99,6 +99,14 @@ var Home = React.createClass({
           <p>Welcome to legacy repairs where you phone is fixed gurented </p>
           <p>we are located at ........</p>
         </div>
+        <div>
+        <p>
+        CHECK US OUT ON
+          <a href="https://www.facebook.com/Legacy-Repairs-1830558207191971/">  FACEBOOK  </a>
+          OR
+          <a href="https://www.instagram.com/legacyrepairs/?hl=en">  INSTAGRAM  </a>
+          </p>
+        </div>
       </div>
     )
 
