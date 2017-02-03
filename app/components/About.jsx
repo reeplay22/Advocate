@@ -14,19 +14,35 @@ var React = require('react');
 var About = (props) => {
   return(
     <div>
-      <h1 className="text-center page-title">About Me</h1>
-      <h6>My name is Tim Reed and as you can see I am that ninja!!!!!!!!</h6>
-      <p>oh yeah my spirit name is Tehuti Ra Akenaten</p>
-
+      <h1 className="text-center page-title">About</h1>
+      <h5>Legacy is a baltimore base phone repair company looking to give great service and products to 
+      you the people !!!!!!!!</h5>
       <p>
-        This is a weather application built on React and Node JS. I
-        have built this for the Catalyst React Development Bootcamp.
+        We fix all Apple mobile products. From the screen to the mother board.
       </p>
-      <p>Here are some other tools i used for the development of this application</p>
+      
       <ul>
-        <li><a href="https://facebook.github.io/react">React</a> - This was the javaScript framework used.</li>
-        <li><a href="http://openweathermap.org">Open Weather Map</a>- I Used Open Weather Map to search for weather data by city name.</li>
-
+        <li> iPhone 6
+          <ol>
+            <li>80 screen repair</li>
+            <li>50 camera replacement</li>
+            <li>150 motherboad replacement</li>
+          </ol>
+         </li>
+        <li> iPhone 6s 
+          <ol>
+            <li>80 screen repair</li>
+            <li>50 camera replacement</li>
+            <li>150 motherboad replacement</li>
+          </ol>
+          </li>
+        <li> iPhone 7 
+        <ol>
+            <li>80 screen repair</li>
+            <li>50 camera replacement</li>
+            <li>150 motherboad replacement</li>
+          </ol>
+          </li>
       </ul>
     </div>
   );

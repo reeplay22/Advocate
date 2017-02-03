@@ -23,7 +23,7 @@ var {Link, IndexLink} = require('react-router');
           <ul className="menu">
             <li className="menu-text">Legacy Repairs</li>
             <li>
-              <IndexLink to="/" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Home(main)</IndexLink>
+              <IndexLink to="/" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Home</IndexLink>
             </li>
             <li>
               <Link to="/about" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>About</Link>
@@ -37,16 +37,7 @@ var {Link, IndexLink} = require('react-router');
           </ul>
         </div>
         <div className="top-bar-right">
-          <form onSubmit={this.onSearch}>
-            <ul className="menu">
-              <li>
-                <input type="search" ref="searchBarLocation" placeholder="Search weather"/>
-              </li>
-              <li>
-                <input type="submit" className="button" value="Get Weather"/>
-              </li>
-            </ul>
-          </form>
+          
         </div>
       </div>
     );

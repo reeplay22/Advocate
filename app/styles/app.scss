@@ -1,34 +1,38 @@
 $space-large:2.5rem;
 $title-color: cyan;
 $text-color: #555;
-
 .page-title {
-  margin-top: $space-large;
-  margin-bottom: $space-large;
-  color: $title-color;
+    margin-top: $space-large;
+    margin-bottom: $space-large;
+    color: $title-color;
 }
 
 .text-center {
-  text-decoration-color: $text-color;
+    text-decoration-color: $text-color;
 }
 
 .temp {
-  font-size: 16pt;
-  font-style: bold;
-  color: cyan;
+    font-size: 16pt;
+    font-style: bold;
+    color: cyan;
 }
+
 .tempMax {
-  color:red;
+    color: red;
 }
 
 .tempMin {
-  color:blue;
+    color: blue;
 }
 
-input[type=search]{
-  box-shadow: none;
+input[type=search] {
+    box-shadow: none;
 }
 
-h1{
-  color: red;
+h1 {
+    color: red;
 }
+
+// body {
+//     background-image: url(../images/unnamed.png);
+// }
